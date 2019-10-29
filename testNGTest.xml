@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="EmployeesRestAPISuite">
+
+	<test thread-count="5" name="RestAssureTestAutomation">
+	<classes>
+	<class name="com.qa.rest.assure.Tests.Get_Employees_TC001" />
+	<class name="com.qa.rest.assure.Tests.Get_Employee_Record_TC002" />
+	<class name="com.qa.rest.assure.Tests.Post_Employee_Record_TC003" />
+	<class name="com.qa.rest.assure.Tests.Put_Employee_Record_TC004" />
+	<class name="com.qa.rest.assure.Tests.Delete_Employee_Record_TC005" />
+	</classes>
+	</test>
+</suite>
