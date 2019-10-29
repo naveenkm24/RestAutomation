@@ -12,7 +12,7 @@ public class BaseTest {
 	
 	public static RequestSpecification httpRequest;
 	public static Response response;
-	public String empID = "1234";
+	public String empID = "51383";
 	
 	public Logger logger;
 	
@@ -20,7 +20,7 @@ public class BaseTest {
 	public void setUp() {
 	
 		logger = Logger.getLogger("EmployeeRestAPI");
-		PropertyConfigurator.configure("C:/Users/Naveen/workspace/RestAssured/target/log4j.properties");
+		PropertyConfigurator.configure("C:\\Users\\Naveen\\workspace\\RestAutomation\\target\\log4j.Properties");
 		logger.setLevel(Level.DEBUG);
 	}
 }
