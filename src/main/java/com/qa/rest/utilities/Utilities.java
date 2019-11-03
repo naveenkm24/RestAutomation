@@ -3,7 +3,7 @@ package com.qa.rest.utilities;
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class Utilities {
-	
+
 	public static String empName() {
 		String generateString = RandomStringUtils.randomAlphabetic(2);
 		return ("John" + generateString);
@@ -19,5 +19,5 @@ public class Utilities {
 		return (generateString);
 		
 	}
-
+	
 }
